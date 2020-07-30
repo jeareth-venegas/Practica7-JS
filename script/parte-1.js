@@ -6,4 +6,6 @@
 //rgb(X, Y, Z)
 //Donde X, Y y Z son números aleatorios entre 0 y 255 (incluyendo 255).
 
-function rgb
+function rgb(min, max){
+    return parseInt(Math.random()*(max - min)+min);
+}
